@@ -1,10 +1,27 @@
 <template>
-  <div class="container">
-    <h1>自然災害について</h1>
-    <p>もし自然災害にあったらあなたはすぐに対応することはできますか？</p>
-    <p>本サイトでは自然災害にあった時どういった対応をするべきなのか、また実際に災害にあって身の回りで改善してほしい点を自由に書くことができます。</p>
-    <p>ぜひ最後まで読んでいただけたら嬉しいです。</p>
-
-
+  <div>
+    abc
   </div>
 </template>
+
+<script>
+export default {
+  name: 'sample',
+  layout: 'ore',
+  data(){
+    return {
+      header: {
+        title: 'ページタイトル'
+      }
+    }
+  },
+  mounted() {
+    this.updateHeader()
+  },
+  methods: {
+    updateHeader() {
+      this.$nuxt.$emit('updateHeader', this.header.title)
+    }
+  }
+}
+</script>
