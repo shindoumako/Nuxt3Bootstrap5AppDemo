@@ -1,5 +1,5 @@
 <template>
 <div>
-<h1>abcdefg</h1>
+<h1>事前に準備を!</h1>
 </div>
 </template>
