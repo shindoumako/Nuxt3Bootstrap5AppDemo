@@ -1,5 +1,5 @@
 <template>
 <div>
-<h1>あいうえ</h1>
+<h1>皆さんからいただいた声!</h1>
 </div>
 </template>
