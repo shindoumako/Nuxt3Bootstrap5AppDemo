@@ -1,14 +1,13 @@
-<template>
-  <h1>{{ title }}</h1>
+ <template>
+    <div class="header">
+        <h1>タイトル</h1>
+    </div>
 </template>
 
-<script>
-export default {
-  props: {
-    title: {
-      type: String,
-      default: ''
-    }
-  }
+<style>
+.header{
+    background-color:blue;
+    color: aliceblue;
+    display:flex;
 }
-</script>
+</style>
