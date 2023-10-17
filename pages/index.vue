@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="color">
         <h1>自然災害対策ページ</h1>
         <h6>本ページは自然災害で事前に対策できること、実際起こってしまった時の行動、</h6>
         <h6>また、実際被害にあわれた方の体験談や改善してほしい点を自由に書くことのできるサイトです。</h6>
@@ -21,9 +21,7 @@
 .article{
     margin: 8px;
 }
-</style>
-
-<style>
+.color{
 h1 {
   position: relative;
   color: #158b2b;
@@ -45,5 +43,6 @@ h1:before {
   border-right-color: transparent;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
+}
 }
 </style>

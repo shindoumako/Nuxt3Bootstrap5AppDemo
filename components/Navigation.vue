@@ -2,7 +2,7 @@
 <div class="navigation">
     <ul>
         <li>
-            <nuxt-link to="/">ホーム</nuxt-link>
+            <nuxt-link to="/" >ホーム</nuxt-link>
         </li>
         <li>
             <nuxt-link to="onepage">事前対策</nuxt-link>
