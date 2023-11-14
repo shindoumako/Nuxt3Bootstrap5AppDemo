@@ -9,7 +9,7 @@ useHead({
 
 <template>
   <div class='container'>
-    <h2>form</h2>
+    <h2>お問い合わせ</h2>
     <form action="https://Naturaldisasters.form.newt.so/v1/NMBwNi3OC" method="post">
       <p><label for="name">匿名</label></p>
       <input id="name" name="name">

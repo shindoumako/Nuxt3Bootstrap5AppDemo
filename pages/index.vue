@@ -1,6 +1,8 @@
 <template>
 <div class="color">
         <h1>自然災害対策ページ</h1>
+        <div class="img">
+        <img src="~/assets/R.jpg" alt="top"></div>
         <h6>本ページは自然災害で事前に対策できること、実際起こってしまった時の行動、</h6>
         <h6>また、実際被害にあわれた方の体験談や改善してほしい点を自由に書くことのできるサイトです。</h6>
         <div class="article">
@@ -44,5 +46,10 @@ h1:before {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
 }
+}
+.img{
+   width: auto;
+   height: 300px;
+   text-align: center;
 }
 </style>
