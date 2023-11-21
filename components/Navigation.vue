@@ -15,14 +15,10 @@
         </li>
         <li>
             <nuxt-link to="fourpage">お問い合わせ</nuxt-link>
-        </li>
-
-       
-    </ul>    
+        </li>   
+    </ul> 
 </div>
-
 </template>
-
 <style>
 body{
    margin: 150px;

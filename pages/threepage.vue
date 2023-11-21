@@ -1,11 +1,19 @@
 <template>
-<div class="three">
+<div class="container text-center">
+  <div class="row">
+    <div class="col-sm">
+      <div class="three">
 <h1>皆さんからいただいた声!</h1>
 <h4>ここでは皆さんからいただいた声を掲示しています。</h4>
+      </div>
+      <div class="col-sm">
 <p>ニックネーム〇〇さんから：このサイトを見て・・・・・・・・・・・</p>
 <p>ニックネーム〇〇さんから：このサイトを見て・・・・・・・・・・・</p>
 <p>ニックネーム〇〇さんから：このサイトを見て・・・・・・・・・・・</p>
 <p>ニックネーム〇〇さんから：このサイトを見て・・・・・・・・・・・</p>
+      </div>
+    </div>
+  </div>
 </div>
 </template>
 

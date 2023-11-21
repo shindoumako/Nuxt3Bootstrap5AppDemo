@@ -10,7 +10,7 @@
 
 <style>
 .header{
-    position: fixed;
+    position:  fixed;
     width: 100%;
     height: 50px;
     z-index: 1;
