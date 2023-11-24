@@ -23,16 +23,15 @@
 .article{
     margin: 8px;
 }
-.color{
-h1 {
+.color
+  h1 {
   position: relative;
   color: #158b2b;
   font-size: 20px;
   padding: 10px 0;
   text-align: center;
-  margin: 1.5em 0;
-}
-h1:before {
+  margin: 1.5em 0;}
+  h1:before {
   content: "";
   position: absolute;
   top: -8px;
@@ -45,8 +44,7 @@ h1:before {
   border-right-color: transparent;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-}
-}
+  }
 .img{
    width: auto;
    height: 300px;

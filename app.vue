@@ -23,7 +23,7 @@
 }
 
 .navigation{
-    position: fixed;
+    float: right;
     height: 100%;
     width:150px;
 }

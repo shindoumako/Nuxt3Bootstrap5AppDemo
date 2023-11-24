@@ -27,8 +27,8 @@
 </template>
 
 <style scoped>
-.count{
-h1 {
+.count
+h1{
   position: relative;/*相対位置*/
   padding: 0.5em 0.5em 0.5em 1.5em;/*アイコン分のスペース*/
   line-height: 1.4;/*行高*/
@@ -39,6 +39,5 @@ h1 {
 }
 .ex1{
 line-height:30px;
-}
 }
 </style>
