@@ -20,6 +20,11 @@
                      火山噴火
                     </nuxt-link>
                  </li>
+                 <li>
+                    <nuxt-link to="#huusuigai">
+                     風水害
+                    </nuxt-link>
+                 </li>
              </ul>
             </nuxt-link>
         </li>

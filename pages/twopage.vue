@@ -90,6 +90,7 @@
 <h5>・<span style="border-bottom: solid 3px #ffd700;">運転中の場合</span> :</h5>
 <p>火山灰などで視界不良が起こる可能性があるため、降灰中や降灰後の運転は非常に危険です。<br>
 「避難所まで距離がある」「身体的に歩くのが難しい家族がいる」など特別な理由がない限り、火山灰がある状態での運転は控えましょう。</p>
+<div id="huusuigai"><h3>2. <font color=#00bfff>風水害</font></h3></div>
 </div>
 </template>
 
