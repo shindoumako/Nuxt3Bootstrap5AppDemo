@@ -26,8 +26,13 @@
                     </nuxt-link>
                  </li>
                  <li>
-                    <nuxt-link to="#yamakuzure">
+                    <nuxt-link to="#syamen">
                      斜面災害
+                    </nuxt-link>
+                 </li>
+                 <li>
+                    <nuxt-link to="#snow">
+                     雪氷災害
                     </nuxt-link>
                  </li>
              </ul>
