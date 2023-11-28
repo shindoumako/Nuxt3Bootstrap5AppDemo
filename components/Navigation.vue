@@ -25,6 +25,11 @@
                      風水害
                     </nuxt-link>
                  </li>
+                 <li>
+                    <nuxt-link to="#yamakuzure">
+                     斜面災害
+                    </nuxt-link>
+                 </li>
              </ul>
             </nuxt-link>
         </li>
