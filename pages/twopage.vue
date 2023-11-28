@@ -91,6 +91,18 @@
 <p>火山灰などで視界不良が起こる可能性があるため、降灰中や降灰後の運転は非常に危険です。<br>
 「避難所まで距離がある」「身体的に歩くのが難しい家族がいる」など特別な理由がない限り、火山灰がある状態での運転は控えましょう。</p>
 <div id="huusuigai"><h3>2. <font color=#00bfff>風水害</font></h3></div>
+<h5>・<span style="border-bottom: solid 3px #00ccff;">警戒レベル１の場合</span> :</h5>
+<p>レベル１は台風が近づいており豪雨災害が起こる可能性のある場合です。<br>
+正確な情報収集と避難方法の確認を行ってください。</p>
+<h5>・<span style="border-bottom: solid 3px #00ccff;">警戒レベル２の場合</span> :</h5>
+<p>レベル２は注意報(大雨・洪水・高潮)の発令です<br>
+</p>
+<h5>・<span style="border-bottom: solid 3px #00ccff;">警戒レベル３の場合</span> :</h5>
+<p></p>
+<h5>・<span style="border-bottom: solid 3px #00ccff;">警戒レベル４の場合</span> :</h5>
+<p></p>
+<h5>・<span style="border-bottom: solid 3px #00ccff;">警戒レベル５の場合</span> :</h5>
+<p></p>
 </div>
 </template>
 
