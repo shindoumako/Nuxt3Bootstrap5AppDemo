@@ -17,7 +17,9 @@
         <img src="~/assets/U.jpg" alt="goods"></div>
         <p class="'ex1">防災グッズを用意することはとても大事です。<br>
 防災グッズがあれば万が一災害にあったとき、逃げる時、逃げた後に役に立つものがそろっています。<br>
-防災グッズが用意できているか用意できていないかでは全然違いますね。</p>
+防災グッズが用意できているか用意できていないかでは全然違いますね。<br>
+準備する際は最低<font color="red">3日</font>、余裕をもって<font color="red">1週間</font>の<font color="blue">食料</font>や<font color="blue">飲料</font>を準備しておきましょう。<br>
+また、すぐに病院に行けない時のために、ある程度、<font color="blue">常備薬</font>の準備をしておきましょう。</p>
 <h3>4.家具・家電の固定</h3>
 <div class="img">
         <img src="~/assets/W.jpg" alt="kagu"></div>
