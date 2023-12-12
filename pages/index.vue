@@ -1,4 +1,5 @@
 
+
 <template>
 <div class="color">
         <h1>自然災害対策ページ</h1>
