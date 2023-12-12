@@ -19,6 +19,7 @@ export default defineNuxtConfig({
         '@vueuse/nuxt',
         '@nuxt/content',
         'usebootstrap',
+        '@formkit/nuxt',
     ],
     css: [
         "bootstrap/scss/bootstrap.scss"
