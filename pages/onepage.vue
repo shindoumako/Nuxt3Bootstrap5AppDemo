@@ -1,6 +1,6 @@
 <template>
 <div class="count">
- <page1/>
+ <page1title1/>
 </div>
 </template>
 

@@ -24,5 +24,9 @@ export default defineNuxtConfig({
     ],
     css: [
         "bootstrap/scss/bootstrap.scss"
-    ]
+    ],
+    components: [{
+        path: '~/components/',
+        pathPrefix: false,
+      }]
 })

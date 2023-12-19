@@ -2,7 +2,7 @@
 
 <template>
 <div class="color">
-        <h1>自然災害対策ページ</h1>
+        <h1>「未然に防ぐ、備える、守る：自然災害のための行動ガイド」</h1>
         <div class="img">
         <img src="~/assets/R.jpg" alt="top"></div>
         <h6>本ページは自然災害で事前に対策できること、実際起こってしまった時の行動、</h6>
