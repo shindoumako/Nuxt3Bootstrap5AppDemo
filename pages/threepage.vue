@@ -18,14 +18,11 @@
 </template>
 
 <style scoped>
-.three
-h1{
-  position: relative;/*相対位置*/
-  padding: 0.5em 0.5em 0.5em 1.5em;/*アイコン分のスペース*/
-  line-height: 1.4;/*行高*/
-  color: #4e8851;/*文字色*/
-  border-top: dotted 1px gray;
-  border-bottom: dotted 1px gray;
-  background: #fafaf3;
+p{
+    padding: 0.2em 1em;
+    margin: 1em 0;
+    background: hsl(0, 0%, 100%);
+    color: #123869;/*文字色*/
+    border-radius: 9px;/*角の丸み*/
 }
 </style>
