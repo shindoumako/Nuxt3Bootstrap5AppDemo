@@ -1,5 +1,5 @@
 <template>
-<div class="disaster">
+<div>
 <h1>もし自然災害が起きてしまったら<font color="red">!?</font></h1>
 <h6>いざ自然災害が起こったらどのような行動をするべきでしょうか。<br>
 <font color="red">地震災害</font>、<font color=#ffa500>火山災害</font>、<font color=#00bfff>風水害</font>、<font color=#008000>斜面災害</font>、<font color=#191970>雪氷災害</font>など災害の種類、その時いる場所によって行動の仕方が変わってきます。<br>
@@ -191,14 +191,5 @@
 </template>
 
 <style scoped>
-.disaster
-h1 {
-  position: relative;/*相対位置*/
-  padding: 0.5em 0.5em 0.5em 1.5em;/*アイコン分のスペース*/
-  line-height: 1.4;/*行高*/
-  color: #4e8851;/*文字色*/
-  border-top: dotted 1px gray;
-  border-bottom: dotted 1px gray;
-  background: #fafaf3;
-}
+
 </style>

@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+      "target": "esnext",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "lib": ["esnext", "esnext.asynciterable", "dom"],
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "jsx": "preserve",
+      "allowJs": true,
+      "noEmit": true,
+      "downlevelIteration": true,
+      "preserveSymlinks": true,
+      "allowSyntheticDefaultImports": true,
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "strictPropertyInitialization": false
+    },
+    "include": ["**/*.ts", "**/*.d.ts"],
+    "exclude": ["node_modules"]
+  }
+  

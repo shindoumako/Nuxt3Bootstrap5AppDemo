@@ -25,8 +25,12 @@ export default defineNuxtConfig({
     css: [
         "bootstrap/scss/bootstrap.scss"
     ],
+    vite: {
+        define: {
+          "process.env.DEBUG": false,
+        }},
     components: [{
         path: '~/components/',
         pathPrefix: false,
       }]
-})
+});

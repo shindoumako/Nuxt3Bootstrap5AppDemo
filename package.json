@@ -14,11 +14,12 @@
     "@vueuse/nuxt": "^9.5.0",
     "gh-pages": "^5.0.0",
     "nuxt": "^3.7.0",
-    "sass": "^1.57.1"
+    "sass": "^1.57.1",
+    "typescript": "^5.3.3"
   },
   "dependencies": {
     "@formkit/nuxt": "^1.4.0",
-    "bootstrap": "^5.3.1",
+    "bootstrap": "^5.3.2",
     "usebootstrap": "^0.1.38"
   }
 }

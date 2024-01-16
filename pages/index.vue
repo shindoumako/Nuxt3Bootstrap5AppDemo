@@ -2,7 +2,7 @@
 
 <template>
 <div class="color">
-        <h1>「未然に防ぐ、備える、守る：自然災害のための行動ガイド」</h1>
+        <h2>「未然に防ぐ、備える、守る：自然災害のための行動ガイド」</h2>
         <div class="img">
         <img src="~/assets/R.jpg" alt="top"></div>
         <h6>本ページは自然災害で事前に対策できること、実際起こってしまった時の行動、</h6>
@@ -26,22 +26,22 @@
     margin: 8px;
 }
 .color
-  h1 {
+  h2 {
   position: relative;
   color: #158b2b;
-  font-size: 20px;
+  font-size: 24px;
   padding: 10px 0;
   text-align: center;
   margin: 1.5em 0;}
-  h1:before {
+  h2:before {
   content: "";
   position: absolute;
-  top: -8px;
+  top: -20px;
   left: 50%;
-  width: 150px;
-  height: 58px;
+  width: 160px;
+  height: 86px;
   border-radius: 50%;
-  border: 5px solid #a6ddb0;
+  border: 4px solid #51e665;
   border-left-color: transparent;
   border-right-color: transparent;
   -webkit-transform: translateX(-50%);
