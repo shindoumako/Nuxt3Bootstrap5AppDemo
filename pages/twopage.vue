@@ -1,10 +1,6 @@
 <template>
 <div>
 <h1>もし自然災害が起きてしまったら<font color="red">!?</font></h1>
-<h6>いざ自然災害が起こったらどのような行動をするべきでしょうか。<br>
-<font color="red">地震災害</font>、<font color=#ffa500>火山災害</font>、<font color=#00bfff>風水害</font>、<font color=#008000>斜面災害</font>、<font color=#191970>雪氷災害</font>など災害の種類、その時いる場所によって行動の仕方が変わってきます。<br>
-そして、自然災害の最も恐ろしい部分が全く予想ができないところです。急に災害が起き、その災害に対して直ちに避難などの行動に起こすことが重要になってきます。<br>
-急に災害が起こってしまってもどんな行動をすればいいか知らない人のための学習、またある程度分かっている人のための復習になっていますのでぜひ最後まで読み２次災害を防止していきましょう！</h6>
 <div id="zisin"><h3>1. <font color="red">地 震</font></h3></div>
 <p>地震が起こったときにまずするべき行動とは？</p>
 <div class="img">
@@ -191,5 +187,11 @@
 </template>
 
 <style scoped>
-
+p{
+    padding: 0.2em 1em;
+    margin: 1em 0;
+    background: hsl(0, 0%, 100%);
+    color: #123869;/*文字色*/
+    border-radius: 9px;/*角の丸み*/
+}
 </style>

@@ -5,19 +5,19 @@
         <h2>「未然に防ぐ、備える、守る：自然災害のための行動ガイド」</h2>
         <div class="img">
         <img src="~/assets/R.jpg" alt="top"></div>
-        <h6>本ページは自然災害で事前に対策できること、実際起こってしまった時の行動、</h6>
-        <h6>また、実際被害にあわれた方の体験談や改善してほしい点を自由に書くことのできるサイトです。</h6>
         <div class="article">
-            <h3><font color=#32cd32;>自然災害の対策</font></h3>
-            <h6>自然災害は急に起こります。だからこそ常日ごろから対策を取っておくべきなのです。
+            <h3>・自然災害の対策</h3>
+            <h6>自然災害は急に起こります。だからこそ常日ごろから対策を取っておくべきなのです。<br>
             今回はいざ対策を取ろうと思っても何から始めたらよいのかわからない人のためにまとめています。</h6>
-            <h3><font color=#32cd32;>自然災害が起こってしまったら</font></h3>
-            <h6>自然災害にあってしまったときどのような行動ができるのでしょう。わかりますか？</h6>
-            <h6>いざ聞かれるとわからない人が多いのではないでしょうか。そんな方に今回いざ災害にあった時の行動の仕方をまとめています。</h6>
-            <h3><font color=#32cd32;>改善点</font></h3>
-            <h6>実際経験した方々の体験談や改善してほしいところを自由に記載することのできるページです。</h6>
-            <h6>皆さんの声を書いていただけたら嬉しいです。</h6>
+            <h3>・自然災害が起こってしまったら</h3>
+            <h6>自然災害にあってしまったときどのような行動ができるのでしょう。わかりますか？<br>
+            いざ聞かれるとわからない人が多いのではないでしょうか。そんな方に今回いざ災害にあった時の行動の仕方をまとめています。</h6>
+            <h3>・改善点</h3>
+            <h6>実際経験した方々の体験談や改善してほしいところを自由に記載することのできるページです。<br>
+            皆さんの声を書いていただけたら嬉しいです。</h6>
         </div>   
+        <p><font color=#c0c0c0;>※本ページは自然災害で事前に対策できること、実際起こってしまった時の行動、<br>
+        また、実際被害にあわれた方の体験談や改善してほしい点を自由に書くことのできるサイトです。</font></p>
 </div> 
 </template>
 
@@ -47,6 +47,41 @@
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   }
+  h3 {
+  color:#ff4500 ;
+  text-align: center;
+  }
+  h6 {
+    position: relative;
+    padding: 1rem;
+    font-size: 18px;
+    text-align: center;
+}
+
+h6::before,
+h6::after {
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    content: '';
+}
+
+h6::before {
+    border-left: dotted 3px;
+    border-top: dotted 3px;
+    top: 0;
+    left: 0;
+}
+
+h6::after {
+    border-right: dotted 3px;
+    border-bottom: dotted 3px;
+    bottom: 0;
+    right: 0;
+}
+p{
+text-align: center;
+}
 .img{
    width: auto;
    height: 300px;
