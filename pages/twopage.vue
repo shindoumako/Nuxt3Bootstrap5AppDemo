@@ -44,6 +44,7 @@
 電車やバスは強い揺れを感知すると緊急停車し、揺れが収まるまで待機することがあります。<br>
 停車後は乗務員の指示に従って、慌てずに行動しましょう。
 </p>
+<ToTopButton />
 <div id="kazan"><h3>2. <font color=#ffa500>火山噴火</font></h3></div>
 <p>火山噴火が起こったときにまずするべき行動とは？</p>
 <div class="img">
@@ -91,6 +92,7 @@
 <h5>・<span style="border-bottom: solid 3px #ffd700;">運転中の場合</span> :</h5>
 <p>火山灰などで視界不良が起こる可能性があるため、降灰中や降灰後の運転は非常に危険です。<br>
 「避難所まで距離がある」「身体的に歩くのが難しい家族がいる」など特別な理由がない限り、火山灰がある状態での運転は控えましょう。</p>
+<ToTopButton />
 <div id="huusuigai"><h3>3. <font color=#00bfff>風水害</font></h3></div>
 <p>風水災害が起こったときにまずするべき行動とは？</p>
 <div class="img">
@@ -111,6 +113,7 @@
 <h5>・<span style="border-bottom: solid 3px #00ccff;">警戒レベル５の場合</span> :</h5>
 <p>レベル５では、災害が発生・切迫しており、命が危険な状態です。<br>直ちに身の安全を確保しましょう。</p>
 <h6>※ <font color=#dc143c>状況が急変することもあるため、情報がレベル１→５の順番で発令(発表)されるとは限りません。</font></h6>
+<ToTopButton />
 <div id="syamen"><h3>4. <font color=#008000>斜面災害</font></h3></div>
 <p>斜面災害が起こる前にするべき行動とは？</p>
 <div class="img">
@@ -140,6 +143,7 @@
   </li>
 </ul>
 </div>
+<ToTopButton />
 <div id="snow"><h3>5. <font color=#191970>雪氷災害</font></h3></div>
 <p>雪が降った時に気を付けるべき行動とは？</p>
 <div class="img">
@@ -185,8 +189,18 @@
 <h5>&ensp;5.防災グッズを見直しておく</h5>
 <p>&ensp;&ensp;雪害によって交通機関が乱れると、周辺のコンビニやスーパーの物流がマヒしてしまう可能性があります。<br>
   &ensp;&ensp;また、着雪害によって停電が発生してしまうと、復旧まで時間がかかるため、普段から防災グッズを備蓄しておきましょう。</p>
+  <ToTopButton />
 </div>
 </template>
+<script>
+import ToTopButton from '~/components/ToTopButton.vue';
+
+export default {
+  components: {
+    ToTopButton,
+  },
+};
+</script>
 
 <style scoped>
 p,.list{
