@@ -41,11 +41,7 @@
         <li>
             <nuxt-link to="threepage">みんなの声</nuxt-link>
         </li>
-        <li>
-            <nuxt-link to="fourpage">お問い合わせ</nuxt-link>
-        </li>   
-    </ul> 
-    
+        </ul>
 </div>
 
 </template>
