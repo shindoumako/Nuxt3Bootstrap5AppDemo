@@ -39,7 +39,7 @@
             </nuxt-link>
         </li>
         <li>
-            <nuxt-link to="threepage">みんなの声</nuxt-link>
+            <nuxt-link to="threepage">みんなの声/お問い合わせ</nuxt-link>
         </li>
         </ul>
 </div>
